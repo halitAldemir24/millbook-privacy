@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — MillBook</title>
+<meta name="description" content="Privacy Policy for MillBook, an offline rice mill ledger app. No account required; records are stored locally on your device." />
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f6f8f6;
+    --border: #e3e8e3;
+    --text: #111827;
+    --muted: #6b7280;
+    --accent: #15803d;
+    --accent-soft: #f0fdf4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0f0c;
+      --surface: #121813;
+      --border: #1f2a22;
+      --text: #e5e7eb;
+      --muted: #9aa3b2;
+      --accent: #4ade80;
+      --accent-soft: #052e16;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 56px 24px 96px; }
+  header { margin-bottom: 40px; }
+  .brand {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 6px 12px; border-radius: 999px;
+    background: var(--accent-soft); color: var(--accent);
+    font-size: 13px; font-weight: 600; letter-spacing: 0.02em;
+  }
+  .brand::before {
+    content: ""; width: 8px; height: 8px; border-radius: 50%;
+    background: var(--accent);
+  }
+  h1 {
+    font-size: 36px; line-height: 1.2; margin: 18px 0 10px; letter-spacing: -0.02em;
+  }
+  .meta { color: var(--muted); font-size: 14px; margin: 0; }
+  .toc {
+    margin: 32px 0 40px; padding: 18px 20px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  }
+  .toc h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 10px; }
+  .toc ol { margin: 0; padding-left: 20px; }
+  .toc li { margin: 4px 0; }
+  .toc a { color: var(--text); text-decoration: none; }
+  .toc a:hover { color: var(--accent); }
+  section { margin: 40px 0; }
+  section h2 {
+    font-size: 22px; margin: 0 0 12px; letter-spacing: -0.01em;
+    scroll-margin-top: 24px;
+  }
+  section h3 { font-size: 16px; margin: 20px 0 6px; color: var(--muted); }
+  p { margin: 10px 0; }
+  ul { margin: 10px 0; padding-left: 22px; }
+  ul li { margin: 4px 0; }
+  a { color: var(--accent); }
+  code {
+    background: var(--surface); border: 1px solid var(--border);
+    padding: 1px 6px; border-radius: 6px; font-size: 0.92em;
+  }
+  .callout {
+    margin: 18px 0; padding: 14px 16px;
+    background: var(--accent-soft); border-left: 3px solid var(--accent);
+    border-radius: 8px; font-size: 14.5px;
+  }
+  footer {
+    margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 13px; text-align: center;
+  }
+  .links { margin-bottom: 10px; }
+  .links a { margin: 0 8px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="brand">MillBook</span>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Last updated: June 13, 2026 · Effective immediately</p>
+    </header>
+
+    <p>
+      <strong>MillBook</strong> ("we," "our," or "the app") is an offline ledger for rice mill owners and
+      operators. We built MillBook to be private by default: it works without an account and keeps your
+      records on your own device. This Privacy Policy explains what information the app handles and how.
+    </p>
+
+    <div class="callout">
+      <strong>In short:</strong> No account is required. Your mill records are stored locally on your
+      device. We do not collect, sell, or share your personal data.
+    </div>
+
+    <nav class="toc" aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#local">Data stored on your device</a></li>
+        <li><a href="#collect">Information we collect</a></li>
+        <li><a href="#analytics">Optional analytics</a></li>
+        <li><a href="#purchases">Optional in-app purchases</a></li>
+        <li><a href="#not">Data we do not collect</a></li>
+        <li><a href="#children">Children's privacy</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#changes">Changes to this policy</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
+
+    <section id="local">
+      <h2>1. Data stored on your device</h2>
+      <p>
+        The information you enter into MillBook is stored <strong>locally on your device</strong>. This
+        includes:
+      </p>
+      <ul>
+        <li>Production records (paddy intake, rice output, variety, shift, operator)</li>
+        <li>Stock for paddy, rice, bran, husk and broken rice (derived from your records)</li>
+        <li>Sales and payment status (paid, pending, partial)</li>
+        <li>Product and customer names you add</li>
+        <li>App preferences (currency, settings)</li>
+      </ul>
+      <p>
+        This data stays on your device and is under your control. If you delete the app, this data is
+        removed with it, unless you have exported or backed it up yourself.
+      </p>
+    </section>
+
+    <section id="collect">
+      <h2>2. Information we collect</h2>
+      <p>
+        MillBook does not require an account and does not ask for your name, email address, phone number,
+        or location. In its standard configuration, the app does <strong>not</strong> transmit your mill
+        records to us or to any server.
+      </p>
+    </section>
+
+    <section id="analytics">
+      <h2>3. Optional analytics</h2>
+      <p>
+        If anonymous usage analytics are enabled in a future version of the app, they would be limited to
+        aggregate, non-identifying information (such as app version, device type, and which screens are
+        used) to help us improve MillBook. Any analytics would be processed by standard providers such as
+        Apple, Google, or Firebase under their own privacy policies, and would <strong>not</strong>
+        include the contents of your mill records.
+      </p>
+    </section>
+
+    <section id="purchases">
+      <h2>4. Optional in-app purchases</h2>
+      <p>
+        If MillBook offers optional paid features (in-app purchases), payments are handled entirely by
+        Apple (App Store) or Google (Google Play). We never see or store your payment method, card
+        number, or billing address. Purchase status may be validated through the store and a subscription
+        provider (such as RevenueCat) under their own privacy policies.
+      </p>
+    </section>
+
+    <section id="not">
+      <h2>5. Data we do not collect</h2>
+      <p>
+        We do not collect personal data unless optional analytics or in-app purchase tools are enabled.
+        MillBook does not include advertising SDKs, does not track you across other apps or websites, and
+        we do not sell your information.
+      </p>
+    </section>
+
+    <section id="children">
+      <h2>6. Children's privacy</h2>
+      <p>
+        MillBook is a business tool intended for adults and is not directed to children. We do not
+        knowingly collect personal information from children.
+      </p>
+    </section>
+
+    <section id="security">
+      <h2>7. Security</h2>
+      <p>
+        Because your records are stored on your own device, their security depends largely on your
+        device's own protections, such as your passcode, biometrics, and device encryption. Any data
+        processed by optional third-party services is transmitted over encrypted connections (HTTPS/TLS).
+        No method of electronic storage or transmission is 100% secure, but we work to protect your data
+        using commercially reasonable safeguards.
+      </p>
+    </section>
+
+    <section id="changes">
+      <h2>8. Changes to this policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. When we make material changes, we will
+        update the "Last updated" date at the top of this page. Continued use of the app after the
+        changes take effect constitutes acceptance of the updated policy.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>9. Contact</h2>
+      <p>
+        If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us
+        at:
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:halyta7@gmail.com">halyta7@gmail.com</a>
+      </p>
+    </section>
+
+    <footer>
+      <div class="links">
+        <a href="support.html">Support</a>
+        ·
+        <a href="mailto:halyta7@gmail.com">Email Support</a>
+      </div>
+      <p>&copy; 2026 MillBook. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
